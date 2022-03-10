@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.banner {
+  background: linear-gradient(#048b9a, white);
+  display: flex;
+  min-height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+.bodybanner {
+  display: inline-block;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  height: 40%;
+}
+.bodybanner h1 {
+  font-size: 55px;
+}
+.bodybanner div {
+  width: 30%;
+  height: 10px;
+  background-color: #fff;
+  margin-left: 35%;
+  margin-bottom: 8%;
+}
+
+/* user */
+
+.img-container {
+  position: relative;
+}
+.img-container img {
+  width: 100%;
+  display: block;
+}
+
+.img-container:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+.img-container:hover img {
+  opacity: 0.3;
+}
+
+.user-info {
+  background: #048b9a;
+  text-transform: capitalize;
+  padding: 0.5rem 0;
+  text-align: center;
+  font-weight: 700;
+}
+/* end of user  */
+/* userlist */
+.userslist {
+  padding: 15px 0;
+}
+.userslist-center {
+  margin: 0 auto;
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 30px;
+}
+
+/* end of userlist */
+/*  users fitler*/
+.filter-container {
+  padding: 3% 0;
+}
+.filter-form {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(202px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 40px;
+}
+.form-group {
+  text-transform: capitalize;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 2%;
+  font-size: 20px;
+  font-weight: 600;
+}
+.form-control {
+  width: 100%;
+  background: transparent;
+  font-size: 16px;
+}
+
+.size-input {
+  width: 85%;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+/* end of users fitler*/
+/* Title */
+.section-title {
+  text-align: center;
+  margin-bottom: 4%;
+}
+.section-title h1 {
+  font-size: 45px;
+  text-transform: capitalize;
+  color: #048b9a;
+}
+
+/* end of Title */
+.row {
+  flex-direction: row;
+  flex: auto;
+}
+.Button {
+  background-color: #048b9a;
+  width: 50%;
+  height: 50%;
+  margin-top: 13%;
+  color: #fff;
+}
+.Button:hover {
+  background-color: #048b9a;
+}
+.Button:active {
+  background-color: #048b9a;
+}
+.Button:focus {
+  background-color: #048b9a;
+}
